@@ -9,11 +9,11 @@ public class App {
         System.out.println("Connection successful");
         System.out.println(jedis.ping());
 
-//        Set<String> keySet = jedis.keys("*");
-//        keySet.forEach(System.out::println);
+        // Set<String> keySet = jedis.keys("*");
+        // keySet.forEach(System.out::println);
 
-//        System.out.println("Info");
-//        System.out.println(jedis.info());
+        // System.out.println("Info");
+        // System.out.println(jedis.info());
 
         jedis.close();
     }
